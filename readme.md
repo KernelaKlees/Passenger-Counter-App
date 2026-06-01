@@ -8,8 +8,8 @@ This mini‑project was originally inspired by an old FreeCodeCamp JavaScript ex
 (Add your GitHub Pages link here once published)
 
 ## 📸 Preview
-![Passenger Counter Screenshot](screenshot.png)  
-
+![Passenger Counter Screenshot](passe.png)
+ 
 ## 🧠 Features
 - Increment the number of people entering  
 - Save the current count  

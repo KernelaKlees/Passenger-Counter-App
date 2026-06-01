@@ -22,7 +22,13 @@ This mini‑project was originally inspired by an old FreeCodeCamp JavaScript ex
 - JavaScript  
 
 ## 📂 Project Structure
-index.html style.css script.js README.md 
+```
+index.html
+style.css
+script.js
+README.md
+```
+
 
 ## 📜 How It Works
 - Click **Increment** to increase the counter  

@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://photostorage.explorest.com/europe/uk/cdalton-embankment-compressed.jpg"); /* Background image URL */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system;
+    font-weight: bold;
+    text-align: center;
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Ensures the background fills the viewport height */
+    display: flex;
+    justify-content: center; /* This ensures the content is spaced correctly */
+    align-items: center;   /* Centers the container vertically */
+
+}
+
+.container {
+    max-width: 500px; /* Restricts the content width */
+    width: 100%; /* Ensures the container is responsive */
+    padding: 20px; /* Adds padding inside the container */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  text-align: center;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black; /* Makes text more visible over the background */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black; /* Makes text more visible over the background */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds spacing between buttons */
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    color:white;
+    font-size: 18px;
+    padding-bottom: 10px 0;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    margin: 10px; /* Adds spacing around the buttons */
+    margin-bottom: 10px 0;
+    border-radius: 10px;/* More rounded edges */
+     align-self: center; /* Center the button horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth animations */
+}
+
+#increment-btn {
+       background: #FF6347; /* Change the background color to Tomato */
+}
+
+#increment-btn:hover {
+    background: #FF4500; /* Darker Tomato on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+}
+
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover {
+    background: green; /* Brighter green on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
